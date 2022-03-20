@@ -2,17 +2,17 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import axios from 'axios'
 import reportWebVitals from './reportWebVitals'
-import { BrowserRouter } from "react-router-dom"
+import { HashRouter } from "react-router-dom"
 import App from './App'
 
 axios.defaults.baseURL = "https://emir-user-management-api.herokuapp.com"
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <React.StrictMode>
       <App />
     </React.StrictMode>
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById('root')
 );
 
