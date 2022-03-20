@@ -75,7 +75,7 @@ function App() {
     return (
       <div>
         <NavBar />
-        <CircularProgress />
+        <div className='loader'><CircularProgress /></div>
       </div>
     )
   }
