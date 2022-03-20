@@ -1,0 +1,44 @@
+.AssignRoleWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.AssignRoleForm {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.AssignEmpty {
+  margin-bottom: 20px;
+}
+
+.Roles {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.RolesItem {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.Button {
+  height: 55px
+}
+
+@media (max-width: 360px) {
+  .AssignRoleForm {
+    flex-direction: column;
+    width: 100%
+  }
+
+  .Button {
+    width: 100%;
+  }
+}
